@@ -28,8 +28,12 @@ app.get('/', (req, res) => {
   res.send('This is my API running...')
 });
 
+app.get('/about', (req, res) => {
+  res.send('This is my about route')
+});
+
 app.listen(port, () => {            //server starts listening for any attempts from a client to connect at port: {port}
   console.log(`Now listening on port ${port}`);
 });
 
-
+module.exports = app;

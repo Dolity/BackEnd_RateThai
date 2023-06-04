@@ -5,16 +5,16 @@ const admin = require("firebase-admin");
 const credentials = require("../key.json")
 
 admin.initializeApp({
-    credential: admin.credential.cert(credentials)
+  credential: admin.credential.cert(credentials)
 });
 
 const db = admin.firestore();
 
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 
 
-  //Get Agen / Find Rate 
+//Get Agen / Find Rate 
 const GetAgencies = async (req, res) => {
   try {
     const currencyFilter = req.params.currency;   //query // รับค่า currency จาก URL parameter
@@ -46,7 +46,7 @@ const GetAgenciesByFiltering = async (req, res) => {
     response.forEach(doc => {
       responseArr.push(doc.data());
     });
-    const currencyFilter = req.query.agency; 
+    const currencyFilter = req.query.agency;
     const result = responseArr.map(item => {
       return {
         agenName: item.agenName.filter(a => a.cur === currencyFilter),
@@ -133,15 +133,14 @@ const DeleteAgencies = async (req, res) => {
 };
 
 module.exports = {
-    CreateAgencies,
-    UpdateAgencies,
-    GetAgenciesAll,
-    GetAgenciesByID,
-    UpdateAgencies,
-    DeleteAgencies,
-
-    GetAgencies,
-    GetAgenciesByFiltering
-  }
+  CreateAgencies,
+  UpdateAgencies,
+  GetAgenciesAll,
+  GetAgenciesByID,
+  UpdateAgencies,
+  DeleteAgencies,
+  GetAgencies,
+  GetAgenciesByFiltering
+}
 
 
