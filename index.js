@@ -1,13 +1,7 @@
-const express = require("express"); 
-const app = express();  
+const express = require("express");
+const app = express();
 
-const port = 5100;     
-
-// const cors = require("cors");
-// var corsOptions = {
-//   origin: 'http://example.com',
-//   optinoSuccess: 200,
-// }
+const port = 5100;
 
 const dbFirestore = require('./APIOnly/agen');
 
@@ -18,7 +12,6 @@ app.use(
     extended: true,
   })
 )
-
 
 //CRUD_FireStore
 app.post('/agencies', dbFirestore.CreateAgencies);
@@ -31,9 +24,12 @@ app.delete('/agencies/:id', dbFirestore.DeleteAgencies);
 app.get('/getagencies/:currency', dbFirestore.GetAgencies);
 app.get('/agencies', dbFirestore.GetAgenciesByFiltering);
 
+app.get('/', (req, res) => {
+  res.send('This is my API running...')
+});
 
 app.listen(port, () => {            //server starts listening for any attempts from a client to connect at port: {port}
-    console.log(`Now listening on port ${port}`); 
+  console.log(`Now listening on port ${port}`);
 });
 
 
