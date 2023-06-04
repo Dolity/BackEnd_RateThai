@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "currencyexchangebc",
+    "private_key_id": "b4d0cd1919ee4b51d5c62babe47b525759a25387",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFFtbeZxapcQ4K\ng1HXUAHQp2aEAZTTmpDkhc84U/KrWRT0Cp5sOvdJjmOx9iwW12LRbBKZ9446eL6B\nOYlH5wFQOw+kmEsA3Np75fqtmYieMlMzwzNGbmEmGvOCC66v53IPsmZpE+fWbuX4\nAANvDOWckz8O7DckGKceg0oqzimlBGZytnRvKNm4N0ViotCL62Iq/svHpi8LH4TR\nQtO4Oc9pYDMLX+RW5uVhHE2r/KyFvTy+0Gluc9+eiOJMI8hLtc7Smi76qEitnJhr\nDfbBUrgU6LsuFE0GAioX6RTqcnBmQWsA2qJ4pFcZvkVQaFmqSKOPUPYuqd0FT0xz\nkiEmPl95AgMBAAECggEAFUIBI4RpfpWt3sbqwydDRtrjdQ4JnChCBBAFuYzecgpd\n9vOVQlW62fF0gdusRjttkmqOeBJqQhbHb39B9iIts1ZnecieYGWx4Ca+Ws6iXHPP\noxflFi3uJxLFnIt/iEQVuqkyoBdQTIHyJoVz2VzCAFkmdkjWqrtI/ULKc2MAvWZT\nXybp0aKenGGbD6dB5dTOjku2b+1g9LGMiiXBFh3MfaqrJAgh7ezyDsVISXuLQHkm\nKWPnlRytfRveF+HFYnRRgjcAoZIh/vPuY//51KdzL/M9WfPmMzN1JcgCPwKcWZG1\nB8bDAZZraa2LhI67aPBGDpBaFc9lWTcCPCnW6aI7PQKBgQDniwk5iNKmAQFW684I\nCoOqtRLb3TTR5QKfcf6JvNl6h8BKguy4RFsHa2IuCCWNcmMz2VtiRLJiQ7kqU4H/\nedSuLNeffV6m7XZJlSnQ1sO/r/WJucBiO4nRKI7ImpT3xUZKZgDwYPXx2+FS/YH7\nqjsX0d+Y3qmgnAeAC/LJxIt3vQKBgQDZ6CoRGJH3mPZyiJoA06lqhD6JbeKtlyj+\nHlSRjIYqAM9GxKYOgl3yMlcCEb47kVTsZvQCqaa9nkS3HsNUJIaCDr1uuHaw28ad\nEGJroHgRz/YIxKLcp3GbkoRe6HcfHXhyxRqC+OQ4mith/cipk4abLs95iWvx5LMn\nHCMXaFI0bQKBgFKhT510spgDa9L1PAWqmupkzGIiQyNUsubr64aEGqiboYf1yTzJ\nSCMRs2vyBFTCKZzrSK19Dpv6xy3Pt2jQtZGi9yA3wXuY6sm/rbiVrC3QQbPw0jM8\nRCacbrgwUlFJ2ZfbZyJht+OkMHlJdwW07nnFsCIB9E8Y36RWn0JaHduRAoGBAIuJ\ntv5xnG9QHWjkfrHO2Ksj+iPpIQIGTTLFW2RE91kIYbMwlCGwa9Z/U+Y4VHgyrY4g\ns1rNJsBADEKzSWOlbBj2tWmkaCUC56GGb2/6N0k4wZWFzcC83OxBm9Bmznk3Vv0v\nqLV8CjEQ0H0UlZ25obXX+PYcAOrKh8qgovwHSrTVAoGBAKAP8yL1rYlCcQX0U7tH\nshFH+/ZAZRL62h0+ZmwdM+kTOztaSyseLz5SnIALyMrxI6gEMaWus5nN3drvz0zj\nKex1HoCnIfToZeisGQ+ORc3tsyvIW9j2L+8We8AKW0CIvGnH+ju/fRyiSxYMXcRu\n6YkD8FOKq2DRDx9VA2h0rbBU\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-jxsc0@currencyexchangebc.iam.gserviceaccount.com",
+    "client_id": "113811908770534009612",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-jxsc0%40currencyexchangebc.iam.gserviceaccount.com"
+  }
+  
